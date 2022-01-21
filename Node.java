@@ -43,7 +43,7 @@ public class Node<E> {
         tail2 = tail2.next;
         tail2.next = newTail; //This original code is not running. I need to refactor it. 
         tail2.next = new Node<>(3); 
-        tail2 = tail2.next;
+        //tail2 = newHead;
        
         Node<Integer> walkAndSwap = startHead;
         while(walkAndSwap != null) {
