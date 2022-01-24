@@ -32,6 +32,7 @@ public class Node<E> {
         while(walkThrough != null) {
             System.out.print(walkThrough.element + " ");
         walkThrough = walkThrough.next;
+        
             }
         
         System.out.print("\n" + "Swapping every two adjacent nodes: ");
@@ -47,8 +48,9 @@ public class Node<E> {
        
         Node<Integer> walkAndSwap = startHead;
         while(walkAndSwap != null) {
+            walkAndSwap = walkAndSwap.next;
             System.out.print(walkAndSwap.element + " ");
-        walkAndSwap = walkAndSwap.next;
+        
                 }
             }
          }
