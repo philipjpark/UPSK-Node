@@ -50,10 +50,54 @@ public class Node<E> {
         while(walkAndSwap != null) {
             walkAndSwap = walkAndSwap.next;
             System.out.print(walkAndSwap.element + " ");
-        
+            sumItUp();
                 }
             }
-         }
+        
+//-----------------------------
+
+
+  static void sumItUp() {
+
+    
+   int n = 7, sum = 0;
+    for (int i = 0; i <= n; i++) {
+    sum +=i;
+    }
+
+    System.out.println(sum);
+
+    }
+   
+
+ 
+
+//---------------------------------------
+
+  
+//     E element;
+//     Node<E> next;
+     
+//     public Node(E e){
+//         element = e;
+//         next = null;
+//         }
+// public class SingularlyLinkedList <S> {
+ 
+//   public int size() {
+//     Node head = null;
+//     Node temp = S.head; int increment = 0;
+//     if (temp == null) {
+      
+//     }
+    
+    
+    
+//   }
+// }
+}
+
+
 
     
 
